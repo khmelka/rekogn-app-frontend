@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://www.thestartupnetwork.co/wp-content/uploads/2018/04/AI-world-forum-background-cropped-1920x1000.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.signinMainContainer {
+  margin-top: 15rem;
+}
+
+.form-container {
+    /* border: 1px solid white; */
+    color: rgb(255, 251, 251);
+    padding: 45px 60px;
+    width: 400px;
+    margin: auto;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(145, 135, 238, 0.4);
+    -moz-box-shadow: -1px 4px 26px 11px rgba(205, 170, 245, 0.4);
+    box-shadow: -1px 4px 26px 11px rgba(163, 169, 247, 0.4);
+    background: rgba(77, 77, 163, 0.253);
+}
+
+.name {
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+#btn1{
+  margin-right: 135px
 }
